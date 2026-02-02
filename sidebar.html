@@ -7,13 +7,25 @@
     <link rel="stylesheet" href="sidebar.css">
 </head>
 <body>
-    <button onclick="document.getElementById('sidebar').style.transform='translateX(-300px)'">sidebar</button>
+    <button onclick="openSidebar()" id="openSideBarBtn">sidebar</button>
     <div id="sidebar">
         <ul>
+            <li><button onclick="closeSidebar()" id="closeSidebarBtn">Close X</button></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">about</a></li>
             <li><a href="#">contact</a></li>
         </ul>
     </div>
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+            document.getElementById("openSideBarBtn").style.display = "none";
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+            document.getElementById("openSideBarBtn").style.display = "block";
+        }
+    </script>
 </body>
 </html>
