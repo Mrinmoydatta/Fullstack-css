@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="sidebar.css">
 </head>
 <body>
-    <button onclick="openSidebar()" id="openSideBarBtn">sidebar</button>
+    <button onclick="openSidebar()" id="openSideBarBtn">&#9776;</button>
     <div id="sidebar">
         <ul>
             <li><button onclick="closeSidebar()" id="closeSidebarBtn">Close X</button></li>
@@ -18,12 +18,12 @@
     </div>
     <script>
         function openSidebar() {
-            document.getElementById("sidebar").style.width = "250px";
+            document.getElementById("sidebar").style.display = "block";
             document.getElementById("openSideBarBtn").style.display = "none";
         }
 
         function closeSidebar() {
-            document.getElementById("sidebar").style.width = "0";
+            document.getElementById("sidebar").style.display = "none";
             document.getElementById("openSideBarBtn").style.display = "block";
         }
     </script>

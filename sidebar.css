@@ -6,13 +6,13 @@ body{
 }
 #sidebar{
     width: 250px;
-    height: 100svh;
+    height: 100vh;
     background-color: #221f1f;
     color: white;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
     position: absolute;
-    padding: 15px;
-    left: -350px;
+    padding: 0px 15px;
+    display: none;
 }
 ul{
     padding: 0;
@@ -32,4 +32,12 @@ a{
 }
 a:hover{
     color: grey;
+}
+#closeSidebarBtn{
+    background: none;
+    width: 100%;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    color: red;
 }
