@@ -29,3 +29,13 @@ a{
     color: rgb(1, 1, 97);
 
 }
+button{
+    height: 40px;
+    width: 80px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 20px;
+    font-weight: bold;
+}
