@@ -25,6 +25,9 @@ ul{
     font-weight: 500;
     flex-wrap: wrap;
 }
+li:hover{
+    font-weight: bolder;
+}
 a{
     text-decoration: none;
     color: rgb(1, 1, 97);
