@@ -1,0 +1,33 @@
+.slide-btn {
+    position: relative;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    background: transparent;
+    color: #4CAF50;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+/* Sliding layer */
+.slide-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;          
+    width: 100%;
+    height: 100%;
+    background: #4CAF50;
+    transition: 0.4s ease;
+    z-index: -1;
+}
+
+/* Hover Effect */
+.slide-btn:hover::before {
+    left: 0;              
+}
+
+.slide-btn:hover {
+    color: white;
+}
