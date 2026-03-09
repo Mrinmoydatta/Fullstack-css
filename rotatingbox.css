@@ -1,8 +1,16 @@
-#box{
+#box1{
     width: 100px;
     height: 100px;
     background-color: red;
-    animation: rotate 2s linear infinite;
+    position: absolute;
+    animation: rotate 0.005s linear infinite;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    animation: rotate2 0.005s linear infinite;
 }
 
 @keyframes rotate {
@@ -11,5 +19,15 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+@keyframes rotate2 {
+    from {
+        transform: rotate(0deg);
+        color: red;
+    }
+    to {
+        transform: rotate(-360deg);
+        color: blue;
     }
 }
