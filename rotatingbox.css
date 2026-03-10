@@ -3,14 +3,14 @@
     height: 100px;
     background-color: red;
     position: absolute;
-    animation: rotate 0.005s linear infinite;
+    animation: rotate 0.005s linear infinite, move 2s linear infinite;
 }
 #box2{
     width: 100px;
     height: 100px;
     background-color: blue;
     position: absolute;
-    animation: rotate2 0.005s linear infinite;
+    animation: rotate2 0.005s linear infinite, move 2s linear infinite;
 }
 
 @keyframes rotate {
@@ -29,5 +29,13 @@
     to {
         transform: rotate(-360deg);
         color: blue;
+    }
+}
+@keyframes move {
+    from{
+        translate: 0 0;
+    }
+    to{
+        translate: 1000px 0;
     }
 }
