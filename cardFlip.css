@@ -32,7 +32,8 @@
     height: inherit;
     width: inherit;
     background-color: lightblue;
-    /* position: absolute; */
+    transform: rotateY(180deg);
+    position: absolute;
     backface-visibility: hidden;
 }
 .card:hover{
