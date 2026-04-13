@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="backgroundThemeToggle.css">
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aut quo sit quia placeat tenetur modi nihil! A laboriosam facilis illum quasi, saepe vitae animi, exercitationem iusto recusandae vel suscipit.</p>
+    <button class="toggle-button">Toggle Theme</button>
+    <script>
+        const toggleButton = document.querySelector('.toggle-button');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+        });
+    </script>
+</body>
+</html>

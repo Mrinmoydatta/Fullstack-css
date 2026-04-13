@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.toggle-button{
+    padding: 10px 20px;
+    background-color: rgb(255, 208, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.toggle-button:hover{
+    background-color: rgb(255, 191, 0);
+}
+.dark-theme{
+    background-color: black;
+    color: white;
+}

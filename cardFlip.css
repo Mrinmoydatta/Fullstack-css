@@ -4,7 +4,7 @@
     align-items: center;
     height: 300px;
     width: 300px;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .card{
     width: inherit;
