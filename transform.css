@@ -1,0 +1,12 @@
+.box{
+    margin: auto;
+    margin-top: 200px ;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s ease;
+}
+.box:hover{
+    background-color: blue;
+    transform: scale(3) rotate(45deg) translateX(20px);
+}
