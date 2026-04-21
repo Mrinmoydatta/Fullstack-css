@@ -1,9 +1,10 @@
 .container{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .item{
-    width: 200px;
+    width: 300px;
     flex-grow: 1;
     flex-wrap: wrap;
     background-color: lightblue;
