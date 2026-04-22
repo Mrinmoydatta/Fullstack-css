@@ -8,10 +8,10 @@
     flex-grow: 1;
     flex-wrap: wrap;
     background-color: lightblue;
+    border: 2px solid #30d6ff;
     padding: 20px;
     text-align: center;
     font-size: 24px;
-    border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 10px;
 }
