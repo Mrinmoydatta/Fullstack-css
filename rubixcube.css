@@ -6,9 +6,38 @@
     margin: 50px auto;
     box-sizing: border-box;
 }
-div{
+.cell{
     width: 100px;
     height: 100px;
     border: 1px solid black;
     box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.c11{
+    background-color: red;
+}
+.c12{
+    background-color: greenyellow;
+}
+.c13{
+    background-color: blue;
+}
+.c21{
+    background-color: orange;
+}
+.c22{
+    background-color: yellow;
+}
+.c23{
+    background-color: red;
+}
+.c31{
+    background-color: blue;
+}
+.c32{
+    background-color: white;
+}
+.c33{
+    background-color: greenyellow;
 }
