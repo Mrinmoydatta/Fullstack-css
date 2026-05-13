@@ -48,3 +48,15 @@
 .c33{
     background-color: greenyellow;
 }
+.front{
+    transform: translateZ(150px);
+}
+.back{
+    transform: rotateY(180deg) translateZ(150px);
+}
+.left{
+    transform: rotateY(-90deg) translateZ(150px);
+}
+.right{
+    transform: rotateY(90deg) translateZ(150px);
+}
