@@ -50,13 +50,17 @@
 }
 .front{
     transform: translateZ(150px);
+    backface-visibility: hidden;
 }
 .back{
     transform: rotateY(180deg) translateZ(150px);
+    backface-visibility: hidden;
 }
 .left{
     transform: rotateY(-90deg) translateZ(150px);
+    backface-visibility: hidden;
 }
 .right{
     transform: rotateY(90deg) translateZ(150px);
+    backface-visibility: hidden;
 }
