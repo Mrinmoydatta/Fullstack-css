@@ -3,7 +3,7 @@
     height: 305px;
     margin-left: auto;
     margin-right: auto;
-    transform: rotate(45deg);
+    transform: rotate(40deg);
 }
 .container{
     display: flex;
