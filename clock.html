@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wall Clock</title>
+  <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+  <div class="clock-scene">
+    <div class="clock">
+      <div class="clock-face">
+        <div class="hand hour" id="hour-hand"></div>
+        <div class="hand minute" id="minute-hand"></div>
+        <div class="hand second" id="second-hand"></div>
+        <div class="center-dot"></div>
+        <div class="tick-container">
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+          <span class="tick large"></span>
+        </div>
+        <div class="number-container">
+          <span class="number" style="--i:1">1</span>
+          <span class="number" style="--i:2">2</span>
+          <span class="number" style="--i:3">3</span>
+          <span class="number" style="--i:4">4</span>
+          <span class="number" style="--i:5">5</span>
+          <span class="number" style="--i:6">6</span>
+          <span class="number" style="--i:7">7</span>
+          <span class="number" style="--i:8">8</span>
+          <span class="number" style="--i:9">9</span>
+          <span class="number" style="--i:10">10</span>
+          <span class="number" style="--i:11">11</span>
+          <span class="number" style="--i:12">12</span>
+        </div>
+      </div>
+    </div>
+    <div class="clock-caption">Wall Clock</div>
+  </div>
+
+  <script>
+    const hourHand = document.getElementById('hour-hand');
+    const minuteHand = document.getElementById('minute-hand');
+    const secondHand = document.getElementById('second-hand');
+
+    function updateClock() {
+      const now = new Date();
+      const seconds = now.getSeconds();
+      const minutes = now.getMinutes();
+      const hours = now.getHours() % 12;
+
+      const secondsDegrees = seconds * 6;
+      const minutesDegrees = minutes * 6 + seconds * 0.1;
+      const hoursDegrees = hours * 30 + minutes * 0.5;
+
+      secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+      minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
+      hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+    }
+
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>
