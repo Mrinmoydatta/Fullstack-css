@@ -1,0 +1,28 @@
+.car-body{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    /* background-color: black; */
+    align-items: flex-end;
+}
+.car-left{
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    border-radius: 10px 0 0 10px;
+    float: left;
+}
+.car-middle{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    border-radius: 10px 10px 0 0;
+}
+.car-right{
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    border-radius: 0 10px 10px 0;
+    float: left;
+}
