@@ -35,3 +35,9 @@
     border: 1px solid black;
     background-color: black;
 }
+.w1{
+    border-radius: 10px 0 0 0;
+}
+.w2{
+    border-radius: 0 10px 0 0;
+}
