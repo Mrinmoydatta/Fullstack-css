@@ -41,3 +41,20 @@
 .w2{
     border-radius: 0 10px 0 0;
 }
+.front-light{
+    width: 15px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    top: 15px;
+}
+.back-light{
+    width: 15px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    top: 20px;
+    right: -55px;
+}
