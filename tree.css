@@ -29,7 +29,7 @@ top: 10px;
 #leaf2{
     width: 100px;
     height: 100px;
-    background-color: rgb(21, 113, 21);
+    background-color: rgb(13, 98, 13);
     border-radius: 50%;
     position: relative;
     /* transform: translateX(-50%) rotate(120deg); */
@@ -39,7 +39,7 @@ top: 10px;
 #leaf3{
     width: 100px;
     height: 100px;
-    background-color: rgb(21, 113, 21);
+    background-color: rgb(29, 183, 29);
     border-radius: 50%;
     position: relative;
     /* transform: translateX(-50%) rotate(240deg); */
