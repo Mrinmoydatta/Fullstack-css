@@ -38,7 +38,7 @@
 .petal3{
     width: 200px;
     height: 200px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     background-color: rgb(71, 52, 235);
     position: relative;
     /* bottom: 50px; */
