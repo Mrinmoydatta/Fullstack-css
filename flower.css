@@ -47,7 +47,7 @@
 .petal4{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color: rgb(231, 220, 60);
     position: relative;
     /* bottom: -180px; */
