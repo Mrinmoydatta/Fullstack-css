@@ -7,6 +7,7 @@
     background: #fff;
     width: 50px;
     height: 50px;
+    border: 2px solid black;
 }
 .black{
     background: #000;
