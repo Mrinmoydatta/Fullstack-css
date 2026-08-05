@@ -1,7 +1,7 @@
 .loader{
     height: 300px;
     width: 300px;
-    border: 50px solid rgb(244, 241, 241);
+    border: 30px solid rgb(244, 241, 241);
     border-top: 30px solid rgb(38, 38, 255);
     border-radius: 50%;
     animation: spin 1s linear infinite;
