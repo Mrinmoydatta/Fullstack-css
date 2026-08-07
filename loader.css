@@ -2,7 +2,7 @@
     height: 300px;
     width: 300px;
     border: 30px solid rgb(244, 241, 241);
-    border-top: 30px solid rgb(70, 70, 237);
+    border-top: 30px solid rgb(27, 27, 248);
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
